@@ -1,5 +1,3 @@
-//Match All Numbers
+//Find One or More Criminals in a Hunt
 
-let movieName = "2001: A Space Odyssey";
-let numRegex = /\d/g; // Change this line
-let result = movieName.match(numRegex).length;
+let reCriminals = /C+/g; // Change this line 

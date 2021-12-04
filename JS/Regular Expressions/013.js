@@ -1,5 +1,7 @@
-//Match All Letters and Numbers
+//Match Characters that Occur Zero or More Times
 
-let quoteSample = "The five boxing wizards jump quickly.";
-let alphabetRegexV2 = /\w/g; // Change this line
-let result = quoteSample.match(alphabetRegexV2).length;
+// Only change code below this line
+let chewieRegex = /Aa*/; // Change this line
+// Only change code above this line
+
+let result = chewieQuote.match(chewieRegex);

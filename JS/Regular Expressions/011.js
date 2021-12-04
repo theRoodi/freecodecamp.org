@@ -1,5 +1,5 @@
-//Match Beginning String Patterns
+//Match Single Characters Not Specified
 
-let rickyAndCal = "Cal and Ricky both like racing.";
-let calRegex = /^Cal/; // Change this line
-let result = calRegex.test(rickyAndCal);
+let quoteSample = "3 blind mice.";
+let myRegex = /[^aeuio0-9]/gi; // Change this line
+let result = quoteSample.match(myRegex); // Change this line

@@ -1,5 +1,5 @@
-//Match Everything But Letters and Numbers
+//Find Characters with Lazy Matching
 
-let quoteSample = "The five boxing wizards jump quickly.";
-let nonAlphabetRegex = /\W/g; // Change this line
-let result = quoteSample.match(nonAlphabetRegex).length;
+let text = "<h1>Winter is coming</h1>";
+let myRegex = /<.*?>/; // Change this line
+let result = text.match(myRegex);
